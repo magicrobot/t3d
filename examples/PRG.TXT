@@ -1,0 +1,13 @@
+set_meshmode on
+set_draw_color 8
+line -50,-50,-50,50,50,50
+set_draw_color 10
+set_plot_eqn sin(x)*sin(y)
+set_plot_range -10,10,-10,10,10,10
+set_axis_range -15,15,-15,15,-5,5
+set_draw_cube_angles -1.0,1.0,0
+plot
+set_meshmode off
+set_draw_color 8
+set_rgb 50,40,50
+plot

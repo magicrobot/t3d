@@ -1,0 +1,18 @@
+set_perspective_view on
+set_dist_factor 150
+set_eye_distance 2
+set_draw_cube_angles -0.5,0.5,0
+set_draw_color 8
+line -100,-100,-100,100,100,100
+set_plot_range -3.5,3.5,-3.5,3.5,20,20
+set_axis_range -5,5,-5,5,-5,5
+set_plot_eqn sin(x)*sin(y)
+set_shading on
+set_shade_ref_pos 0,0,0
+set_meshmode off
+set_draw_color 16
+set_rgb 30,60,40
+set_max_shades 220
+set_shading_range 100,0
+make_shades 60,20
+plot

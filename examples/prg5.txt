@@ -1,0 +1,14 @@
+set_draw_color 8
+line -50,-50,-50,50,50,50
+set_draw_color 15
+filled_tri -30,-30,-60,0,30,30,30,-30,-40
+set_draw_color 23
+set_rgb 60,60,10
+line 60,0,0,-60,0,0
+line 0,60,0,0,-60,0
+line 0,0,60,0,0,-60
+set_draw_color 32
+set_rgb 60,10,60
+set_draw_cube_angles 0.5,0.6,0
+filled_tri -50,60,-30,0,-10,30,30,-30,-40
+

@@ -1,0 +1,11 @@
+set_perspective_view on
+set_meshmode off
+set_shading on
+set_draw_color 8
+line -50,-50,-50,50,50,50
+set_draw_color 10
+set_max_shades 25
+set_shade_ref_pos 0,0,0
+make_shades
+set_shade_dist 0,256
+filled_tri -30,-30,-60,0,30,30,30,-30,-40
